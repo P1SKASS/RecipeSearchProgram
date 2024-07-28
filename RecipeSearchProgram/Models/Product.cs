@@ -2,17 +2,9 @@
 {
     public class Product
     {
-        private bool? enable;
-
         public int Id { get; set; }
 
-        public string NameProduct { get; set; }
-        public bool? Enable
-        {
-            get => false; set
-            {
-                Enable = value;
-            }
-        }
+        public required string NameProduct { get; set; }
+        public bool? Enable { get; set; }
     }
 }
