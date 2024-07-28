@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;   
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', sans-serif;
+    padding: 0;
+}
+
+header{
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.basket{
+    height: 30px;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.icons li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+img {
+    margin-top: 0;
+    width: 20px;
+    filter: invert();
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
