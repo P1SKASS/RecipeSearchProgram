@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Program\\Project\\RecipeSearchProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|Recipe search program\\Recipe search program.csproj|c:\\program\\project\\recipesearchprogram\\recipe search program\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|Recipe search program\\Recipe search program.csproj|solutionrelative:recipe search program\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|Recipe search program\\Recipe search program.csproj|c:\\program\\project\\recipesearchprogram\\recipe search program\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|Recipe search program\\Recipe search program.csproj|solutionrelative:recipe search program\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|solutionrelative:recipesearchprogram\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Program\\Project\\RecipeSearchProgram\\Recipe search program\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Recipe search program\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\Recipe search program\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Recipe search program\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T22:58:45.861Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Program\\Project\\RecipeSearchProgram\\Recipe search program\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Recipe search program\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\Recipe search program\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Recipe search program\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "DocumentMoniker": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "RecipeSearchProgram\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "RecipeSearchProgram\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T22:24:30.982Z",
+              "WhenOpened": "2024-07-28T13:02:05.126Z",
               "EditorCaption": ""
             }
           ]
