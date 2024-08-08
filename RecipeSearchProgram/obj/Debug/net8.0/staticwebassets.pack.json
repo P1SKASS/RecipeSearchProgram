@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\RecipeSearchProgram.bundle.scp.css"
     },
     {
+      "Id": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

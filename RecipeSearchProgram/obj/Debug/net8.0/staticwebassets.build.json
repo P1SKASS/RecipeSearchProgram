@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pQn56U3hHvWdfQJY/WDz11esdCoVAzNVDLoMwYtItRE=",
+  "Hash": "xEbArK1tsTBZrHRvNwyaV9RiLqdI1eJnia2lQVoigng=",
   "Source": "RecipeSearchProgram",
   "BasePath": "_content/RecipeSearchProgram",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RecipeSearchProgram.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\wwwroot\\css\\index.css",
+      "SourceId": "RecipeSearchProgram",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\wwwroot\\",
+      "BasePath": "_content/RecipeSearchProgram",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
       "Identity": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\wwwroot\\css\\site.css",

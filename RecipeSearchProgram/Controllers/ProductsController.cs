@@ -20,6 +20,21 @@ namespace Recipe_search_program.Controllers
 
             return View(products);
         }
+
+        [HttpPost]
+        public IActionResult UpdateEnable(int id, bool enable)
+        {
+            var existingProduct = _context.Products.Find(id);
+            if (existingProduct != null)
+            {
+                existingProduct.Enable = enable;
+                _context.SaveChanges();
+                return Ok();
+            }
+            return NotFound();
+        }
+
+
         public IActionResult AddProduct()
         {
             return View();
