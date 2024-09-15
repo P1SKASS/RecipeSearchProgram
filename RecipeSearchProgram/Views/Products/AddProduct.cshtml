@@ -1,24 +1,28 @@
 ﻿@model Recipe_search_program.Models.Product
 
-@{
-    ViewData["Title"] = "Add Products";
-}
 
-<div class="container">
-    <h2>Add products</h2>
-    <form asp-action="AddProduct" method="post">
-        <div>
-            <label asp-for="NameProduct" class="form-label"></label>
-            <input asp-for="NameProduct" class="form-control" placeholder="Product Name" />
-            <span asp-validation-for="NameProduct" class="text-danger"></span>
-        </div>
-        <div>
-            <label asp-for="Enable" class="form-label" hidden></label>
-            <input asp-for="Enable" class="form-control" placeholder="Product Name" hidden value="false"/>
-        </div>
-        <div>
-            <input type="submit" value="Create" class="btn btn-primary" />
-            <a asp-action="List">Back</a>
-        </div>
-    </form>
-</div>
+<head>
+    <link rel="stylesheet" href="~/css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Add Product</h2>
+        <form asp-action="AddProduct" method="post">
+            <div>
+                <label asp-for="NameProduct" class="form-label"></label>
+                <input asp-for="NameProduct" class="form-control" placeholder="Product Name" />
+                <span asp-validation-for="NameProduct" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Enable" class="form-label" hidden></label>
+                <input asp-for="Enable" class="form-control" hidden value="false" />
+            </div>
+
+            <div style="margin-top: 15px;">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="List" class="btn-secondary">Back</a>
+            </div>
+        </form>
+    </div>
+</body>

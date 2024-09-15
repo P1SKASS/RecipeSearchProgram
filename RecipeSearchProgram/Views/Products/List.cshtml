@@ -4,8 +4,8 @@
     <link rel="stylesheet" href="~/css/index.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('.enable-checkbox').change(function() {
+        $(document).ready(function () {
+            $('.enable-checkbox').change(function () {
                 var checkbox = $(this);
                 var productId = checkbox.data('id');
                 var isChecked = checkbox.is(':checked');
@@ -17,10 +17,10 @@
                         id: productId,
                         enable: isChecked
                     },
-                    success: function() {
+                    success: function () {
                         console.log('Update successful');
                     },
-                    error: function() {
+                    error: function () {
                         console.log('Update failed');
                     }
                 });
@@ -30,27 +30,30 @@
 </head>
 
 <body>
-    <table class="product-list" id="productTable">
-        <thead>
-            <tr>
-                <th>Product</th>
-                <th>Enable?</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var product in Model)
-            {
+    <div class="container">
+        <h2>Product List</h2>
+        <table class="product-list" id="productTable">
+            <thead>
                 <tr>
-                    <td>@Html.DisplayFor(modelItem => product.NameProduct)</td>
-                    <td>
-                        <input type="checkbox" class="enable-checkbox" data-id="@product.Id"
-                        @(product.Enable == true ? "checked" : "") />
-                    </td>
+                    <th>Product</th>
+                    <th>Enable?</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => product.NameProduct)</td>
+                        <td>
+                            <input type="checkbox" class="enable-checkbox" data-id="@product.Id"
+                            @(product.Enable == true ? "checked" : "") />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
-    <a asp-action="AddProduct">Add new product</a>
-    <a asp-action="Search">Search recipe</a>
+        <a asp-action="AddProduct" class="btn-primary">Add New Product</a>
+        <a asp-action="SearchRecipe" class="btn-primary">Search Recipe</a>
+    </div>
 </body>

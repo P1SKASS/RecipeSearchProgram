@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Recipe_search_program.Models;
+using System.ComponentModel;
 
 namespace Recipe_search_program.Controllers
 {
@@ -44,6 +45,21 @@ namespace Recipe_search_program.Controllers
         public async Task<IActionResult> AddProduct(Product product)
         {
             if (product != null) {
+                var existingProduct = await _context.Products
+                    .FirstOrDefaultAsync(p => p.NameProduct == product.NameProduct);
+
+                if (existingProduct != null)
+                {
+                    ModelState.AddModelError("NameProduct", "Such a product already exists.");
+                    return View(product);
+                }
+
+                if (!System.Text.RegularExpressions.Regex.IsMatch(product.NameProduct, @"^[a-zA-Z\s]+$"))
+                {
+                    ModelState.AddModelError("NameProduct", "The product name must contain only Latin characters.");
+                    return View(product);
+                }
+
                 _context.Add(product);
                 await _context.SaveChangesAsync();
             }
@@ -54,5 +70,12 @@ namespace Recipe_search_program.Controllers
 
             return RedirectToAction("List");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> SearchRecipe(Product product)
+        {
+            return View();
+        }
+
     }
 }

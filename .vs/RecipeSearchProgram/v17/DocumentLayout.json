@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Program\\Project\\RecipeSearchProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|solutionrelative:recipesearchprogram\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|solutionrelative:recipesearchprogram\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\views\\products\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|solutionrelative:recipesearchprogram\\views\\products\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|solutionrelative:recipesearchprogram\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|solutionrelative:recipesearchprogram\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|solutionrelative:recipesearchprogram\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42625E22-5B2A-4B5D-A1FB-57C83A6C7004}|RecipeSearchProgram\\RecipeSearchProgram.csproj|c:\\program\\project\\recipesearchprogram\\recipesearchprogram\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,32 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\wwwroot\\css\\index.css",
               "RelativeDocumentMoniker": "RecipeSearchProgram\\wwwroot\\css\\index.css",
               "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\wwwroot\\css\\index.css",
               "RelativeToolTip": "RecipeSearchProgram\\wwwroot\\css\\index.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-04T10:20:21.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddProduct.cshtml",
-              "DocumentMoniker": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
-              "RelativeDocumentMoniker": "RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
-              "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
-              "RelativeToolTip": "RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T14:21:42.891Z",
               "EditorCaption": ""
             },
             {
@@ -66,7 +53,7 @@
               "RelativeDocumentMoniker": "RecipeSearchProgram\\Views\\Products\\List.cshtml",
               "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Views\\Products\\List.cshtml",
               "RelativeToolTip": "RecipeSearchProgram\\Views\\Products\\List.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAAAZAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-28T14:21:44.815Z",
               "EditorCaption": ""
@@ -74,12 +61,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
+              "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
+              "RelativeToolTip": "RecipeSearchProgram\\Views\\Products\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T14:21:42.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "RecipeSearchProgram\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Program\\Project\\RecipeSearchProgram\\RecipeSearchProgram\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "RecipeSearchProgram\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwCIAAAAJAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAowE0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T13:02:05.126Z",
               "EditorCaption": ""
@@ -94,7 +94,8 @@
               "RelativeToolTip": "RecipeSearchProgram\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T13:10:16.743Z"
+              "WhenOpened": "2024-07-28T13:10:16.743Z",
+              "EditorCaption": ""
             }
           ]
         }
